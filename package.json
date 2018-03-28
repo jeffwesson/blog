@@ -20,7 +20,7 @@
 	"scripts": {
 		"start": "node index",
 		"dev": "DEBUG=ghost:* grunt dev",
-		"predeploy": "buster generate",
+		"predeploy": "/Users/jeff/Library/Python/2.7/bin/buster generate",
 		"deploy": "gh-pages -b master -d static",
 		"test": "grunt validate --verbose",
 		"setup": "yarn install && knex-migrator init && grunt symlink && grunt init || true"
